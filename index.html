@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                    <div class="scoreboard">
+                        <p id="home-team">0</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn" onclick="homeOne()">+1</button>
+                        <button class="btn" onclick="homeTwo()">+2</button>
+                        <button class="btn" onclick="homeThree()">+3</button>
+                    </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                    <div class="scoreboard">
+                        <p id="guest-team">0</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn" onclick="guestOne()">+1</button>
+                        <button class="btn" onclick="guestTwo()">+2</button>
+                        <button class="btn" onclick="guestThree()">+3</button>
+                    </div>
+            </div>
+        </div>
+        <button id="new-game" class="btn btn-new" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(./wall.jpg);
+    background-size: cover;
+    text-shadow: 0 0 5px black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+    width: 90px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    color: #ffffff;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: "Bungee", sans-serif;
+    transition: all 0.25s;
+    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+}
+
+.btn-new {
+    margin: 40px 0 0 0;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.btn-new:hover,
+.btn-new:focus,
+.btn:focus,
+.btn:hover {
+    color: greenyellow;
+    box-shadow: 0 0 5px yellowgreen;
+}
